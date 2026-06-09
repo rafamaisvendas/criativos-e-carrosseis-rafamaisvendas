@@ -1,0 +1,24 @@
+{
+  "name": "criativos-e-carrosseis",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "start": "node .mastra/output/index.mjs"
+  },
+  "dependencies": {
+    "@mastra/core": "^0.14.0",
+    "@ai-sdk/anthropic": "^1.0.0",
+    "puppeteer": "^22.0.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "zod": "^3.22.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/node-telegram-bot-api": "^0.64.0",
+    "typescript": "^5.0.0",
+    "mastra": "^0.14.0"
+  }
+}
